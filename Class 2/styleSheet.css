@@ -1,0 +1,36 @@
+body{
+    margin: 30px;
+}
+header{
+    text-align: center;
+}
+header ul li{
+    display: inline-block;
+}
+
+hr{
+    height: 5px;
+    background-color: black;
+    color: black;
+}
+img{
+    float: right;
+    height: 250px;
+    border-radius: 50%;
+}
+
+section hr{
+    height: 2px;
+    background-color: gray;
+}
+
+section{
+    margin: 40px;
+}
+footer ul li{
+    display: inline-block;
+}
+footer ul{
+    text-align: center;
+
+}
