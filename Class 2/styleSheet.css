@@ -1,6 +1,10 @@
 body{
     margin: 30px;
 }
+h1{
+    font-size: 50px;
+    font-weight: 900;
+}
 header{
     text-align: center;
 }
@@ -13,7 +17,7 @@ hr{
     background-color: black;
     color: black;
 }
-img{
+.bodytext.clearfix img{
     float: right;
     height: 250px;
     border-radius: 50%;
@@ -33,4 +37,23 @@ footer ul li{
 footer ul{
     text-align: center;
 
+}
+.clearfix {
+  overflow: auto;
+}
+
+/*nav bar css*/
+ul.navigation li{
+    border-left: solid 2px;
+    padding: 0px 0px 0px 4px;
+}
+ul.navigation li:first-child {
+    border-left: none;
+}
+/*end nav bar*/
+
+.portfolio_img{
+    height: auto;
+    border-radius: 0px;  
+    text-align: center;
 }
