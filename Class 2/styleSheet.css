@@ -1,13 +1,25 @@
 body{
     margin: 30px;
 }
+
 h1{
     font-size: 50px;
     font-weight: 900;
+    font-family: Impact, Charcoal, sans-serif;
 }
+
+h2{
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+p{
+    font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+}
+
 header{
     text-align: center;
 }
+
 header ul li{
     display: inline-block;
 }
@@ -17,6 +29,7 @@ hr{
     background-color: black;
     color: black;
 }
+
 .bodytext.clearfix img{
     float: right;
     height: 250px;
@@ -31,13 +44,16 @@ section hr{
 section{
     margin: 40px;
 }
+
 footer ul li{
     display: inline-block;
 }
+
 footer ul{
     text-align: center;
 
 }
+
 .clearfix {
   overflow: auto;
 }
@@ -49,6 +65,11 @@ ul.navigation li{
 }
 ul.navigation li:first-child {
     border-left: none;
+}
+
+ul.navigation{
+    padding-left: 0px;
+    font-family: "Arial Black", "Gadget" , sans-serif;
 }
 /*end nav bar*/
 
