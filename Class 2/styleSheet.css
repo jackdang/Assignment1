@@ -78,3 +78,7 @@ ul.navigation{
     border-radius: 0px;  
     text-align: center;
 }
+
+ul.navigation li a {
+    font-family: sans-serif;
+}
